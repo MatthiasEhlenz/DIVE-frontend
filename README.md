@@ -1,7 +1,7 @@
 
 # DIVE-frontend (dive-frontend)
 
-> DIVE Frontend Codebase
+> Fork of DIVE Frontend Codebase to be updated and used for a Learning Analytics project - LA-DIVE 
 
 ## Installing packages
 1. Run `yarn install`
