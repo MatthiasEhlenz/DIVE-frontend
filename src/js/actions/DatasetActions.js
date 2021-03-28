@@ -288,6 +288,9 @@ function requestDatasetDispatcher(projectId, datasetId) {
 }
 
 function receiveDatasetDispatcher(params, json) {
+  console.log('receiveDatasetDispatcher called')
+  console.log(params)
+  console.log(json)
   return {
     type: RECEIVE_DATASET,
     id: json.id,
