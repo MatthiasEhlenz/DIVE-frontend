@@ -41,6 +41,9 @@ function formatRow(columnNames, row) {
 }
 
 export function formatTableData(columnNames, data) {
+  console.log("formatTableData called")
+  console.log(columnNames)
+  console.log(data)
   return data.map((row) =>
     formatRow(columnNames, row)
   );
