@@ -72,11 +72,6 @@ export class HomePage extends Component {
                   </div>
                   <div className={ styles.secondaryCopy + ' pt-running-text' }>
                     <p>This instance of DIVE is only for use in the Design LAK 2021 Conference Workshop. Please do not upload data that is not anonymised as the server is not private and data can be shared.</p>
-                  </div>
-                  <div className={ styles.primaryCopy }>
-                    <span>Recommendation-driven<br/>data exploration</span>
-                  </div>
-                  <div className={ styles.secondaryCopy + ' pt-running-text' }>
                     <p><b>Turn your data into stories</b> without writing code. Our system integrates <b>semi-automated visualization and statistical analysis</b> features into a unified workflow.</p>
                     <p>DIVE is a <b>publicly available</b> and <b>open source</b> research project from the MIT Media Lab.</p>
                   </div>
