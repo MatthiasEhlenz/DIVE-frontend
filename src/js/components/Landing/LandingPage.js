@@ -38,7 +38,7 @@ export class LandingPage extends Component {
 
     if (this.state.betaToastOpen && user.showToast) {
       betaToaster.show({
-        message: <span>DIVE in currently in beta and is still under active development. To report bugs, please contact <a href="mailto:dive@media.mit.edu" target="_blank">dive@media.mit.edu</a>.</span>,
+        message: <span>This instance of DIVE is for the Design LAK 2021 Conference Workshop. To report bugs, please contact <a href="mailto:aneesha.bakharia@gmail.com" target="_blank">aneesha.bakharia@gmail.com</a>.</span>,
         iconName: 'hand-right',
         intent: Intent.WARNING,
         onDismiss: this.closeBetaToast
