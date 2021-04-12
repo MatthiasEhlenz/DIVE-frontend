@@ -33,13 +33,6 @@ export class AnalysisMenuPage extends Component {
         route: `${ datasetId }/analyze/correlation`
       },
       {
-        title: 'Comparison',
-        iconName: 'comparison',
-        description: 'Analyze differences between different groups',
-        disabled: !datasetId,
-        route: `${ datasetId }/analyze/comparison`
-      },
-      {
         title: 'Regression',
         iconName: 'th',
         description: 'Estimate relationship among fields',
@@ -47,6 +40,18 @@ export class AnalysisMenuPage extends Component {
         route: `${ datasetId }/analyze/regression`
       }
     ]
+    // Removed Anova 
+    /*
+    
+          {
+        title: 'Comparison',
+        iconName: 'comparison',
+        description: 'Analyze differences between different groups',
+        disabled: !datasetId,
+        route: `${ datasetId }/analyze/comparison`
+      },
+    
+    */
 
     return (
       <div className={ styles.fillContainer }>
