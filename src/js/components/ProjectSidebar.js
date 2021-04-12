@@ -76,11 +76,6 @@ export class ProjectSidebar extends Component {
           route: 'correlation'
         },
         {
-          name: 'comparison',
-          iconName: 'comparison',
-          route: 'comparison'
-        },
-        {
           name: 'regression',
           iconName: 'th',
           route: 'regression'
@@ -96,6 +91,17 @@ export class ProjectSidebar extends Component {
 
     return tabs;
   }
+  
+  //hide comparison
+  /*
+  
+        {
+          name: 'comparison',
+          iconName: 'comparison',
+          route: 'comparison'
+        },
+  
+  */
 
   _getTabList = () => {
     const tabs = this._getTabs();
